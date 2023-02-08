@@ -24,5 +24,7 @@ public class Main {
                 System.out.println("\u001B[91m" + "Twoja " + "\u001B[30m" + "liczba jest za duża");
             }
         } while (!((number > 100 && number < 200) && number % 3 == 0));
+
+        sc.close();
     }
 }
